@@ -1,7 +1,6 @@
-:root {
+/* :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
@@ -13,9 +12,9 @@
   --hero-bg-color: #c4c4c4;
   --socials-icon-light-color: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -60,18 +59,18 @@ ol {
 
 p {
   margin: 0;
-}
+} */
 
 /* Components */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 
-.logo {
+/* .logo {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
@@ -87,9 +86,9 @@ p {
 
 .logo__accent {
   color: var(--accent-color);
-}
+} */
 
-.btn {
+/* .btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,23 +109,23 @@ p {
 
   background-color: var(--accent-color);
   color: var(--light-theme-color);
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-.section__title {
+/* .section__title {
   margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
-}
+} */
 
-.socials {
+/* .socials {
   display: flex;
   justify-content: center;
 }
@@ -158,13 +157,13 @@ p {
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon {
   fill: var(--light-theme-color);
-}
+} */
 
 /* ======= STUDIO ======= */
 
 /* Navigation */
 
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -256,11 +255,11 @@ p {
 .contact-info__icon {
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
 /* Hero */
 
-.hero {
+/* .hero {
   background-color: var(--hero-bg-color);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -288,10 +287,10 @@ p {
   text-transform: uppercase;
 
   color: var(--light-theme-color);
-}
+} */
 
 /* Features */
-.features__list {
+/* .features__list {
   display: flex;
 }
 
@@ -325,11 +324,11 @@ p {
   line-height: 1.714;
 
   color: var(--secondary-text-color);
-}
+} */
 
 /* Scope */
 
-.scope.section {
+/* .scope.section {
   padding-top: 0;
 }
 
@@ -356,11 +355,11 @@ p {
   line-height: 1.142px;
   color: var(--light-theme-color);
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* Team */
 
-.team.section {
+/* .team.section {
   background-color: var(--light-bakground-color);
 }
 
@@ -402,10 +401,10 @@ p {
 
 .socials__icon.socials-light-theme {
   fill: var(--socials-icon-light-color);
-}
+} */
 
 /* Clients */
-
+/* 
 .clients__list {
   display: flex;
   justify-content: center;
@@ -441,11 +440,11 @@ p {
 .clients__link:hover .clients__icon,
 .clients__link:focus .clients__icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Footer Info */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-background-color);
@@ -454,9 +453,6 @@ p {
 .footer__info-container {
   display: flex;
   justify-content: space-between;
-}
-.footer__contacts {
-  /* margin-right: 70px; */
 }
 
 .footer__socials {
@@ -480,12 +476,6 @@ p {
 
   color: var(--light-address-link-color);
 }
-
-/* .address__link:hover,
-.address__link:focus {
-  color: var(--light-theme-color);
-  scroll-behavior: smooth;
-} */
 
 .address__link.light-theme {
   color: var(--light-theme-color);
@@ -537,14 +527,14 @@ p {
 
 .footer__btn-icon {
   margin-left: 10px;
-}
+} */
 /* ======= STUDIO END ======= */
 
 /* ======= PORTFOLIO ======= */
 
 /* Projects */
 
-.projects__nav {
+/* .projects__nav {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -685,13 +675,13 @@ p {
 .projects__link:focus .projects__description {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 /* ======= PORTFOLIO END ======= */
 
 /* ======= MODAL WINDOW START ======= */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -707,11 +697,10 @@ p {
 
 .backdrop.is-hidden {
   opacity: 0;
-  /* visibility: hidden; */
   pointer-events: none;
-}
+} */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -868,6 +857,6 @@ p {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--accent-color);
-}
+} */
 
 /* ======= MODAL WINDOW END ======= */
