@@ -20,7 +20,7 @@
   transition: background-color 250ms var(--timing-function);
 
   &:hover,
-  &focus {
+  &:focus {
     background-color: var(--accent-color);
   }
 }
